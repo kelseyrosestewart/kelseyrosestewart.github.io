@@ -3,15 +3,21 @@ General Styles
 * --------------------------------------- */
 body {
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
-
-h1,
+header {
+  border: 1px solid black;
+  background-image: url(../images/Banners/header-craig-melvillejpg.jpg);
+  background-size: cover;
+  height: 300px;
+  background-position: 50% 40%
+}
+h1, 
 h2,
 h3 {
   font-size: 36px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Bungee', regular;
 }
 main,
 header h1,
@@ -31,4 +37,21 @@ nav a:hover {
 nav {
   background-color: #ccc;
   padding: 12px;
+
+}
+.inspir-img{
+  width: 400px;
+}
+
+.three-col {
+  display: flex
+}
+
+.three-col article {
+  flex: 1;
+  padding: 10px;
+}
+
+.three-col .description {
+  flex-grow: 2;
 }
