@@ -1,0 +1,26 @@
+.contact h1{
+    font-family: 'Bungee', regular;
+}
+
+.contact {
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    background-color: turquoise;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    color: turquoise;
+    border: 2px solid turquoise;
+}

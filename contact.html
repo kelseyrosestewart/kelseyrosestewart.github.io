@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<body class="contact">
+    <h1>Contact me!</h1>
+    <form action="https://getsimpleform.com/messages?form_api_token=3b8201ed75fb11e1ac92527a557b01b5" method="post">
+        <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+        <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+        <!-- all your input fields here.... -->
+        <label for="name">Name</label>
+        <br>
+        <input type='text' name='name' />
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="Email">
+        <br>
+        <br>
+        <input type='submit' value='Submit' class="button"/>
+      </form>  
+</body>
