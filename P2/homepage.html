@@ -7,57 +7,77 @@
     <title>Love Verona</title>
 </head>
 <body>
-    <header>
-        <img src="Images/LVrelogo.png" alt="Logo">
-    </header>
-    <nav>
-        <div class="topnav">
-            <a href="Menu.pdf">Menu</a>
-            <a href="Order Online">Order Online</a>
-            <a href="about.html">About</a>
-            <a href="locations.html">Locations</a>
+    <h1>
+        <a href="homepage.html">
+            <img src="Images/LVrelogo.png" alt="Logo">
+        </a></h1>
+    <header class="nav">
+        <div class="icon">
+            <div class="hamburger"></div>
         </div>
-    </nav>
-    <section class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="Images/primavera.jpg" alt="Primavera">
+        <div class="menu-mobile">
+        <a href="Menu.pdf">Menu</a>
+        <a href="Order Online">Order Online</a>
+        <a href="about.html">About</a>
+        <a href="locations.html">Locations</a>
+    </div>
+</header>
+<header class="desktop">
+    <div class="menu-desktop">
+    <a href="Menu.pdf">Menu</a>
+    <a href="Order Online">Order Online</a>
+    <a href="about.html">About</a>
+    <a href="locations.html">Locations</a>
+</div>
+</header>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+    <img class="slides" src="Images/primavera.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+    <img class="slides" src="Images/margheritapizza.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+    <img class="slides" src="Images/peraitalianasalad.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <img class="slides" src="Images/spaghettibolognese.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <img class="slides" src="Images/villagiopizza.jpeg" style="width:100%">
+    </div>
+</div>
+    <section class="instagrid">
+        <div class="InstaImages">
+            <a href="https://www.instagram.com/p/BCp32laBC_G/?hl=en">
+                <img class="gray-social" src="Images/InstaOne.jpg" alt="InstaOne">
+            </a>
         </div>
-        <div class="mySlides fade">
-            <img src="Images/margheritapizza.jpg" alt="Margherita">
+        <div class="InstaImages">
+            <a href="https://www.instagram.com/p/6x-aqQhC3J/">
+                <img class="gray-social" src="Images/InstaTwo.jpg" alt="InstaTwo">
+            </a>
+        </div >
+        <div class="InstaImages">
+            <a href="https://www.instagram.com/p/6jkh6ThC9R/">
+                <img class="gray-social" src="Images/InstaThree.jpg" alt="InstaThree">
+            </a>
         </div>
-        <div class="mySlides fade">
-            <img src="Images/peraitalianasalad.jpg" alt="Salad">
-        </div>
-        <div class="mySlides fade">
-            <img src="Images/spaghettibolognese.jpg" alt="Spaghetti">
-        </div>
-        <div class="mySlidesfade">
-            <img src="Images/villagiopizza.jpeg" alt="Vellagio">
+        <div class="InstaImages">
+            <a href="https://www.instagram.com/p/BoLq63UhETa/">
+                <img class="gray-social" src="Images/InstaFour.jpg" alt="InstaFour">
+            </a>
         </div>
     </section>
-    <section class="InstaImages">
-        <div>
-            <a href="https://www.instagram.com/p/BCp32laBC_G/?hl=en">
-                <img src="Images/InstaOne.jpg" alt="InstaOne">
-            </a>
-        </div>
-        <div>
-            <a href="https://www.instagram.com/p/6x-aqQhC3J/">
-                <img src="Images/InstaTwo.jpg" alt="InstaTwo">
-            </a>
-        </div>
-        <div>
-            <a href="https://www.instagram.com/p/6jkh6ThC9R/">
-                <img src="Images/InstaThree.jpg" alt="InstaThree">
-            </a>
-        </div>
-        <div>
-            <a href="https://www.instagram.com/p/BoLq63UhETa/">
-                <img src="Images/InstaFour.jpg" alt="InstaFour">
-            </a>
-        </div>
+    <section class="social-links">
     <a href="https://www.facebook.com/loveveronapizza/">Facebook</a>
     <a href="https://www.instagram.com/loveveronapizza/?hl=en">Instagram</a>
-
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="homepage.js"></script>
 </body>
 </html>
