@@ -178,7 +178,6 @@ img {
         line-height: 50px;
         justify-content: space-evenly;
         flex-direction: row;
-        height: 0;
         text-align: center;
         position: absolute;
         top: 50px;
