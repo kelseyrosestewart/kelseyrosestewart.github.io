@@ -55,3 +55,18 @@ nav {
 .three-col .description {
   flex-grow: 2;
 }
+
+button {
+  width: 1in;
+  height: .5in;
+  border: none;
+  background-color: lightblue;
+  font-family: 'Bungee', light;
+  text-align: center;
+}
+
+button:hover {
+  border: 3px solid lightblue;
+  color: lightblue;
+  background-color: white;
+}
