@@ -191,8 +191,7 @@ img {
 
 body {
     display: flex;
-    flex-direction: row;
-    flex: 1;
+    flex-direction: column;
 }
 
 .gray-map {
@@ -203,6 +202,11 @@ body {
 .gray-map:hover {
     filter: none;
     -webkit-filter: grayscale(0);
+}
+
+.maps {
+    display: flex;
+    flex-direction: column;
 }
 
 
