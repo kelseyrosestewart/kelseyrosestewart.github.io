@@ -2,7 +2,15 @@
 
 /* START of Mobile Menu */
 
+.gray-map {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
 
+.gray-map:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
 
 h1 {
     margin-top: 50px;
@@ -101,6 +109,7 @@ img {
     height: 4px;
     background: #94192E;
     border-radius: 5px;
+
     transition: .5s;
 }
 
@@ -192,21 +201,7 @@ img {
 body {
     display: flex;
     flex-direction: column;
-}
-
-.gray-map {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-.gray-map:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-
-.maps {
-    display: flex;
-    flex-direction: column;
+    flex: 1;
 }
 
 
