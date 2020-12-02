@@ -413,3 +413,17 @@ img {
     filter: none;
     -webkit-filter: grayscale(0);
 }
+
+
+img .InstaImages {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+
+}
+
+.slideshow-container {
+    width: 100%;
+    margin: 0;
+    min-width: 1024px;
+}
