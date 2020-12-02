@@ -139,7 +139,7 @@ h1 {
     width: 0;
   }
   
-  .open_button {
+  .open_desktop {
     display: inline-block;
     height: 66px;
     position: relative;
@@ -154,7 +154,7 @@ h1 {
     transition: opacity 100ms linear;
   }
   
-  a.open_button {
+  a.open_desktop {
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -162,11 +162,11 @@ h1 {
   }
   
    
-  a.open_button:hover {
+  a.desktop_button:hover {
     color: #94192E;
   }
   
-  a.open_button.load {
+  a.desktop_button.load {
     opacity: 0;
   }
   
