@@ -1,8 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Palanquin:700);
 
 html, body {
-  background: #C7E5E6;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -11,17 +10,31 @@ html, body {
 
 h1 {
   color: #A6A49C;
-  font-family: 'Palanquin', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
   color: #474544;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 
-.icon-grid div {
-  
+.row-one {
+  display: flex;
+}
+
+.column-one {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.row-two {
+  display: flex;
+}
+
+.column-two {
+  flex: 33.33%;
+  padding: 5px;
 }
 
 .modal {
@@ -83,7 +96,6 @@ p {
 }
 
 .open_button {
-  background: #363D4E;
   display: inline-block;
   height: 66px;
   position: relative;
@@ -99,18 +111,17 @@ p {
 }
 
 a.open_button {
-  color: #FFFFFF;
+  color: black;
   letter-spacing: 2px;
   line-height: 66px;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
 }
+
  
 a.open_button:hover {
-  background: #3E465A;
+  color: #94192E;
 }
 
 a.open_button.load {
@@ -118,7 +129,7 @@ a.open_button.load {
 }
 
 button.modal_close {
-  background: #363D4E;
+  background: #94192E;
   border: none;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -141,7 +152,7 @@ button.modal_close {
 }
 
 button.modal_close:hover {
-  background: #3E465A;
+  background:  #94192E;
   -webkit-transform: rotate(360deg) scale(1.10);
   -moz-transform: rotate(360deg) scale(1.10);
   -ms-transform: rotate(360deg) scale(1.10);
